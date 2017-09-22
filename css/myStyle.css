@@ -1,0 +1,211 @@
+.logo {
+  padding: 0;
+}
+#top {
+  position: fixed;
+  bottom: 10vh;
+  right: -50px;
+  z-index: 99;
+  display: block;
+  width: 50px;
+}
+
+#top i {
+  font-size: 40px;
+  color: #ffc107;
+}
+
+#capabilities .info h3 {
+  color: #fff;
+}
+#capabilities .info p {
+  color: rgba(255, 255, 255, 0.9);
+}
+.features p {
+  color: #424242;
+}
+.box-wrapper {
+  height:400px;
+}
+.text-area p {
+  color:#424242;
+  text-indent: 2rem;
+}
+.filter-item p {
+  padding: 20px;
+  /* text-align: left; */
+}
+.businessText img {
+  position: relative;
+}
+.businessText .picBox {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  color: #fff;
+}
+.businessText p {
+  /* position: relative; */
+  /* line-height: 20px; */
+  max-height: 190px;
+  overflow: hidden;
+}
+.pie-info {
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.pie-wrapper .info,
+.pie-info .info  {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 33, 33, .8);
+    z-index: 2;
+    display: block;
+    opacity: 0;
+    top: 0px;
+    left: 0px;
+}
+
+.pie-wrapper:hover .info,
+.pie-info:hover .info {
+    opacity: 1;
+}
+.pie-wrapper .info .btn,
+.pie-info .info .btn {
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  left: 50%;
+  margin: -20px 0 0 -20px;
+  position: absolute;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  padding: 0;
+  min-width: 40px;
+  background-color: #ffc107;
+}
+
+.btn.filter {
+  background-color: transparent;
+}
+
+.btn.filter:hover,
+.btn.active.filter {
+  background-color: #ffc107;
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* 二级页面 */
+.about-text{
+	margin-bottom: 0;
+}
+.about-text a{
+	text-decoration: none;
+}
+.left-align{
+	margin-bottom: 0;
+}
+.sidebar-widget ul li a{
+	text-decoration: none;
+}
+.sidebar-widget ul li a:hover{
+	color:#fec107;
+}
+.sidebar-widget ul .active a{
+	color:#fec107;
+	text-decoration: none;
+}
+/* blog 二级页面 */
+.blog {
+  margin-top: 4vh;
+  margin-bottom: 0;
+}
+
+.blog .info .date {
+  margin-bottom: 0;
+}
+
+.blog .title {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.blog p {
+  color:#757575;
+  margin-bottom: 5px;
+}
+.blog .title a{
+  font-size: 22px;
+}
+@media (max-width:677px){
+  .logo img{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .businessText p {
+    max-height: 160px;
+  }
+}
+
+/* .businessText:nth-child(1) p::after {
+  content: "...";
+  position: absolute;
+  bottom: 0;
+  right: 24px;
+  padding-left: 40px;
+  background: -webkit-linear-gradient(left, transparent, #15a1a0 55%);
+  background: -o-linear-gradient(right, transparent, #15a1a0 55%);
+  background: -moz-linear-gradient(right, transparent, #15a1a0 55%);
+  background: linear-gradient(to right, transparent, #15a1a0 55%);
+} */
+/* .businessText:nth-child(1) p::after {
+  content: "...";
+  position: absolute;
+  bottom: 20px;
+  right: 26px;
+  padding-left: 40px;
+  background: -webkit-linear-gradient(left, transparent, #15a1a0 55%);
+  background: -o-linear-gradient(right, transparent, #15a1a0 55%);
+  background: -moz-linear-gradient(right, transparent, #15a1a0 55%);
+  background: linear-gradient(to right, transparent, #15a1a0 55%);
+}
+.businessText:nth-child(2) p::after {
+  content: "...";
+  position: absolute;
+  bottom: 20px;
+  right: 26px;
+  padding-left: 40px;
+  background: -webkit-linear-gradient(left, transparent, #ffe3e3 55%);
+  background: -o-linear-gradient(right, transparent, #ffe3e3 55%);
+  background: -moz-linear-gradient(right, transparent, #ffe3e3 55%);
+  background: linear-gradient(to right, transparent, #ffe3e3 55%);
+}
+.businessText:nth-child(3) p::after {
+  content: "...";
+  position: absolute;
+  bottom: 20px;
+  right: 26px;
+  padding-left: 40px;
+  background: -webkit-linear-gradient(left, transparent, #2a354b 55%);
+  background: -o-linear-gradient(right, transparent, #2a354b 55%);
+  background: -moz-linear-gradient(right, transparent, #2a354b 55%);
+  background: linear-gradient(to right, transparent, #2a354b 55%);
+}
+.businessText:nth-child(4) p::after {
+  content: "...";
+  position: absolute;
+  bottom: 20px;
+  right: 26px;
+  padding-left: 40px;
+  background: -webkit-linear-gradient(left, transparent, #f1e0df 55%);
+  background: -o-linear-gradient(right, transparent, #f1e0df 55%);
+  background: -moz-linear-gradient(right, transparent, #f1e0df 55%);
+  background: linear-gradient(to right, transparent, #f1e0df 55%);
+} */
